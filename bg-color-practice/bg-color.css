@@ -1,0 +1,44 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(51, 47, 47);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#red{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 10px;
+    border: white 3px solid;
+}
+
+#green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius:10px ;
+    border: white 3px solid;
+}
+
+#blue{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    border: white 3px solid;
+}
+
+#yellow{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: white 3px solid;
+}
+
