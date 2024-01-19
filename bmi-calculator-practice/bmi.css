@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+form{
+    
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}
+
+.guide{
+    font-weight: bold;
+}
+
+#results{
+    margin: 10px;
+}
