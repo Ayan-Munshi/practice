@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Axios from 'axios'
 import Axios_testig from './Axios_testig'
+import Axios_post_testing from './Axios_post_testing'
 
 function App() {
   
@@ -26,7 +27,10 @@ function App() {
         </div>
       ):(<h1>no infromation available</h1>)}
 
-      {<Axios_testig/>}
+      {<Axios_post_testing/>}  // component for posting data by Axios
+
+      {<Axios_testig/>}    // component fot getting data by Axios
+
     </>
   )
 }
